@@ -14,7 +14,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
-  declarations: [],
   imports: [
     CommonModule,
     LayoutModule,
@@ -31,7 +30,6 @@ import { MatExpansionModule } from '@angular/material/expansion';
     FlexLayoutModule
   ],
   exports: [
-    CommonModule,
     LayoutModule,
     MatToolbarModule,
     MatButtonModule,
@@ -44,6 +42,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatSnackBarModule,
     MatExpansionModule,
     FlexLayoutModule
-  ]
+  ],
+  declarations: []
 })
 export class MaterialModule { }

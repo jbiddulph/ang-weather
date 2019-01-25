@@ -1,9 +1,9 @@
 export interface Weather {
-    city: string;
-    country: string;
-    image: string;
-    description: string;
-    temerature: number;
-    lat?: number;
-    long?: number;
+  pubname: string;
+  town: string;
+  county: string;
+  image: string;
+  description: string;
+  lat?: number;
+  lon?: number;
 }
