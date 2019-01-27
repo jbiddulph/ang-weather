@@ -14,6 +14,7 @@ export class WeatherSearchComponent implements OnInit {
   constructor(private weatherService: WeatherService) { }
 
   ngOnInit() {
+    console.log(this.weather);
   }
 
   search() {
